@@ -1,0 +1,34 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 50px; /* Fija una altura para el Navbar */
+    position: relative; /* Permite posicionar el logo absolutamente */
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    margin-left: 50px;
+  }
+  
+  .nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1rem;
+    right: 30px;
+  }
+  
+  /* Tamaño del logo */
+  .logo {
+    width: 120px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+    position: absolute;
+    right: 50px; /* Posiciona el logo a la derecha del Navbar */
+    top: 70%;
+    transform: translateY(-50%); /* Centra el logo verticalmente */
+  }
+  

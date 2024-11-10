@@ -1,0 +1,14 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+  }
+  
+  .home-logo { /* Cambia el nombre de la clase */
+    width: 350px;
+    height: auto;
+  }
+  
