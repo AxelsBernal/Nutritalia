@@ -1,14 +1,72 @@
-/* Home.css */
+.hero-section {
+  background-image: url('../images/FondoComida.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  letter-spacing: 2px; /* Ajusta el espacio entre letras */
+  color: #ffffff; /* Blanco para que contraste con el fondo oscuro */
+}
 
-.home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 5vh;
-  }
-  
-  .home-logo { /* Cambia el nombre de la clase */
-    width: 350px;
-    height: auto;
-  }
-  
+
+
+
+.seasonal-specials-section {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Color blanco para el texto */
+  text-align: center;
+  padding: 2rem 0; /* Espaciado arriba y abajo */
+  position: relative;
+}
+
+.seasonal-specials-section h2 {
+  font-family: 'Playfair Display', serif; /* Usa una fuente serif elegante */
+  font-weight: bold;
+  font-size: 2rem; /* Tamaño del texto */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+}
+
+.seasonal-specials-section h2:before,
+.seasonal-specials-section h2:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px; /* Largo de las líneas */
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.seasonal-specials-section h2:before {
+  left: -70px; /* Espacio entre el texto y la línea izquierda */
+}
+
+.seasonal-specials-section h2:after {
+  right: -70px; /* Espacio entre el texto y la línea derecha */
+}
+
+.line {
+  width: 80%; /* Ajusta el largo de la línea */
+  height: 1px;
+  background-color: #ffffff;
+  margin: 0 auto 1rem auto; /* Centra la línea y deja espacio debajo */
+}
+
+
+.content-section {
+  background-color: #000000;
+  padding: 2rem;
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  margin-top: 0; /* Ajusta según sea necesario */
+}
