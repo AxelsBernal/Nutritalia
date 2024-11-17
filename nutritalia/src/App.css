@@ -24,4 +24,13 @@ body {
 
 }
 
+.container {
+  margin-top: 120px; /* Ajusta según la altura del Navbar */
+  padding: 0 20px; /* Espaciado lateral opcional */
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+}
+
+
+
+
 

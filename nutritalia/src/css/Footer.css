@@ -1,0 +1,12 @@
+/* Footer.css */
+
+.footer {
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333; /* Texto gris oscuro */
+  text-align: center;
+  padding: 1rem; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  font-family: 'Arial', sans-serif; /* Fuente limpia y legible */
+  margin-top: 2rem; /* Espaciado superior para separarlo del contenido anterior */
+  border-top: 1px solid #ddd; /* Línea superior para dividir */
+}

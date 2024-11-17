@@ -1,0 +1,79 @@
+/* Contenedor principal */
+.menu {
+    text-align: center; /* Centra todo el contenido */
+    padding-top: 70px; /* Asegura que el contenido esté debajo del Navbar */
+    color: #4a2c1d; /* Texto marrón */
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* Título del Menú */
+  .menu-title {
+    font-size: 2rem; /* Tamaño del texto */
+    font-weight: bold;
+    /* margin-bottom: 1rem;  Espacio debajo del título */
+    color: #e5e5e5; /* Marrón elegante */
+  }
+  
+  /* Contenedor de la imagen */
+  .menu-image-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen */
+    align-items: center;
+    margin-top: 2rem; /* Espacio encima de la imagen */
+  }
+  
+  /* Imagen del Menú */
+  .menu-image {
+    width: 100%; /* Imagen ocupa el 80% del ancho */
+    max-width: 1000px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px; /* Bordes redondeados */
+
+  }
+  
+/* Estilo para el menú de comidas */
+/* Fondo negro para el menú */
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: black; /* Fondo negro */
+  padding: 2rem;
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Cada elemento del menú */
+.menu-item {
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Línea divisoria blanca semitransparente */
+  padding-bottom: 1.5rem;
+}
+
+/* Estilo de los títulos (nombre del platillo) */
+.menu-item h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem; /* Tamaño más grande */
+  color: rgb(246, 109, 11); /* Letras blancas */
+  margin-bottom: 0.5rem;
+  text-transform: uppercase; /* Texto en mayúsculas */
+  letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Estilo de las descripciones */
+.menu-item p {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem; /* Descripción más pequeña */
+  color: rgba(255, 255, 255, 0.622); /* Blanco semitransparente */
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+/* Precio del menú */
+.menu-price  {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: red; /* Blanco puro */
+  margin-top: 0.5rem;
+}
